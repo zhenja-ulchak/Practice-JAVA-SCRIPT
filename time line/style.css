@@ -1,0 +1,45 @@
+.hide {
+    display: none;
+}
+
+.wrap {
+    background: rgb(90, 112, 128);
+    width: 250px;
+    padding: 200px;
+    height: 1000px;
+}
+
+.h1 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.list {
+    line-height: 4;
+    position: relative;
+}
+
+.item {
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.time-line-conteiner {
+    position: absolute;
+    width: 3px;
+    border: 2px solid black;
+    top: 10px;
+    left: 20px;
+    height: 800px;
+}
+
+.time-line {
+    position: absolute;
+    height: 10%;
+    background: violet;
+    width: 5px;
+    border-radius: 20px;
+    transition: 0.1s;
+}

@@ -1,0 +1,46 @@
+.header {
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: violet;
+}
+
+.scroll-container {
+    position: absolute;
+    height: 15px;
+    background: black;
+    bottom: 0;
+    width: 100%;
+}
+
+.scroll {
+    background: turquoise;
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+}
+
+.content {
+    margin-top: 200px;
+}
+
+.wrap {
+    background: rgb(90, 112, 128);
+    width: 250px;
+    padding: 200px;
+    height: 500px;
+}
+
+.h1 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.ul {
+    padding: 50px;
+}
